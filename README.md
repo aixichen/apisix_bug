@@ -17,6 +17,8 @@ apisix-2.13.0 http-logger 开启 include_resp_body = true 记录返回body
 
 1.  开启插件 http-logger 开启 include_resp_body = true 记录返回body
 2.  编写一个grpc 服务通过 grpc-transcode解析
+3.  请求后返回默认值
+4.  插件 http-logger 设置 include_resp_body = false  请求返回正常
 ### 重现过程
 #### proto
 put /apisix/admin/proto/4
