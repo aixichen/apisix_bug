@@ -6,6 +6,10 @@ apisix-2.13.0 http-logger 开启 include_resp_body = true 记录返回body
 使用 grpc-transcode 
 接口返回数据错错误 表现为返回 proto 定义的默认值
 
+#### 测试代码
+- 测试代码为dubbogo3(golang)需求环境 apisix 2.13.0+nacos
+- 配置有docker 可直接启动 熟悉go 也可直接打包成执行文件
+
 
 
 
